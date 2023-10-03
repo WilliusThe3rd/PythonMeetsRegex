@@ -1,5 +1,5 @@
 # PythonMeetsRegex
-I was sent a challenge of make a script that pulls all of the port numbers from a block of text. Its not the prettiest but it will do lol
+# I was sent a challenge of make a script that pulls all of the port numbers from a block of text. Its not the prettiest but it will do lol
 
 This is the text in question:
 
@@ -14,7 +14,7 @@ This is the text in question:
 <134>1 2020-08-14T18:28:15Z okc-1 FireWall 29610 - [action:"Accept"; conn_direction:"Outgoing"; flags:"1234567"; ifdir:"inbound"; ifname:"bond1.100"; logid:"0"; loguid:"{0x1234567,0x89,0xa012345b6,0x78c90123}"; origin:"172.16.0.X"; originsicname:"CN=okc-p,O=cat.com.8fp4ua"; sequencenum:"123"; time:"1597429695"; version:"4"; __policy_id_tag:"product=VPN-1 & FireWall-1[db_tag={ZYX9876-ABCD-0123-BETA-78C90123};mgmt=mgmt;date=1597388219;policy_name=Split-VPN-FW-Policy\]"; dst:"172.17.0.X "; log_delay:"1597429695"; layer_name:"Split-VPN-FW-Policy Security"; layer_uuid:"1234567-1234-5678-ab90-78c9012345"; match_id:"25"; parent_rule:"0"; rule_action:"Accept"; rule_uid:" 1234567-1234-5678-ab90-78c9012345"; product:"VPN-1 & FireWall-1"; proto:"6"; s_port:"60641"; service:"80"; service_id:"http_"; src:"10.X.234.X";
 
 
-and my solution:
+# and my solution:
 #!/bin/python3
 
 import re
